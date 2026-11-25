@@ -1,0 +1,52 @@
+:root {
+    --lys-farve: #F5F5F4;
+    --dark-farve: #393C44;
+    --lys-grå-farve: #C9C9C9;
+    --green-farve: #91997E;
+}
+
+/* HEADER SEKTION */
+/* Logo header */
+.logo1 {
+    width: 64px;
+    height: auto;
+}
+
+/* Ikoner */
+.ikoner-header {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.ikoner-header img {
+    width: 24px;
+    height: auto;
+}
+.ikoner-header button {
+    background: transparent;
+    border: none;
+}
+
+/* Top header (uden søgeikon) */
+.top-header {
+    /* Placerer logo og menu i hver sin side af top-rækken */
+    display: flex;
+    justify-content: space-between;
+    /* justerer dem lodret på midten */
+    align-items: center;
+}
+
+/* searchbar */
+#soeg {
+    width: 70%;
+    display: block;
+    margin-left: auto;
+}
+
+/* Samlet header */
+header {
+    background-color: var(--dark-farve);
+    color: var(--lys-farve);
+    padding: 24px;
+}
+
